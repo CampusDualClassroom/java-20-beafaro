@@ -9,9 +9,9 @@ public class Exercise20 {
         List<Person> personList = new ArrayList<>();
 
         personList.add(new Person("John", "Smith"));
-        personList.add(new Doctor("María", "Montessori", "Educación"));
+        personList.add(new Teacher("María", "Montessori", "Educación"));
         personList.add(new PoliceOfficer("Jake", "Peralta", "B-99"));
-        personList.add(new Teacher("Gregory", "House", "Nefrología e infectología"));
+        personList.add(new Doctor("Gregory", "House", "Nefrología e infectología"));
 
         return personList;
     }
